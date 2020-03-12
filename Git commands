@@ -1,0 +1,28 @@
+Git commands
+------------------------------
+1.git config --global user.name
+2.git config --global user.email
+3.git init
+4.git clone /path/to/repository
+5.git add <filename>
+6.git commit -m "commit message"
+7.git push
+8.git status
+9.git checkout -b <branchname> - to create a new branch
+10.git checkout <branchname>
+11.git branch - List all the branches in your repo, and also tell you what branch you're currently in:
+12.git branch -d <branchname>
+13.git push origin <branchname>
+14.git pull
+15.git diff - To known the difference
+16.git log
+17.git fetch origin
+   git reset --hard origin/master
+   git reset --hard origin/release-9.4.3
+18.git stash
+19.commit behind steps
+------------------------
+1.git checkout release-9.4.3
+2.git pull
+3.git checkout branch(local-branch)
+4.git rebase release-9.4.3
