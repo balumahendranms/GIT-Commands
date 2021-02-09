@@ -21,7 +21,7 @@ Git commands
    git reset --hard origin/release-9.4.3
 18.git stash
 ------------------------
-How to resolve the commit behinf steps
+How to resolve the commit behind steps
 --------------------------------------
 1.git checkout release-9.4.3
 2.git pull
