@@ -20,8 +20,9 @@ Git commands
    git reset --hard origin/master
    git reset --hard origin/release-9.4.3
 18.git stash
-19.commit behind steps
 ------------------------
+How to resolve the commit behinf steps
+--------------------------------------
 1.git checkout release-9.4.3
 2.git pull
 3.git checkout branch(local-branch)
