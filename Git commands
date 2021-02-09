@@ -27,3 +27,9 @@ How to resolve the commit behind steps
 2.git pull
 3.git checkout branch(local-branch)
 4.git rebase release-9.4.3
+
+How to squash into single 
+--------------------------
+git rebase -i HEAD~n
+
+
